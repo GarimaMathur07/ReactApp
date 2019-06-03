@@ -7,7 +7,7 @@ export default class FirstComponent extends Component {
 		const element = <div>Text from Element</div>;
 		return (
 			<div className="comptext">
-				<h3>First Component</h3>
+				<h1>First Component</h1>
 				{this.props.displaytext}
 				{element}
 			</div>
